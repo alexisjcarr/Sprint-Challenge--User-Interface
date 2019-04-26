@@ -376,10 +376,10 @@ footer nav a:hover {
   margin-bottom: 30px;
 }
 
-input[type=text] {
+input[type="text"] {
   width: 200px;
-  border-radius: 10px; 
-  background-color: #f8f8f8; 
+  border-radius: 10px;
+  background-color: #f8f8f8;
   border: 2px solid #ccc;
   outline: none;
 }
@@ -395,19 +395,21 @@ form #message {
   resize: none;
 }
 
-input[type=submit] {
-  border-radius: 10px; 
-  background-color: #EEFFE6; 
+input[type="submit"] {
+  border-radius: 10px;
+  background-color: #eeffe6;
   border: 2px solid #ccc;
   padding: 5px 20px;
 }
 
-input[type=submit]:hover {
-  background-color: #D6E6CF;
+input[type="submit"]:hover {
+  background-color: #d6e6cf;
   cursor: pointer;
 }
 
 .contact-footer {
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
+  width: 800px;
+  margin: 0 auto;
 }
