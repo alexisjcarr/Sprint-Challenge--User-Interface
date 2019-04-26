@@ -187,7 +187,7 @@ header .header-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .container {
@@ -308,3 +308,54 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
+
+/* About Page specific styles */
+
+.about-top-content {
+  border-bottom: 1px dotted black;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+.about-middle-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.about-middle-content .about-boxes {
+  width: 380px;
+  /* margin: 10px; */
+  padding: 20px;
+  text-align: justify;
+  border-bottom: 1px dotted black;
+}
+
+.about-middle-content .about-boxes button {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin-top: 10px;
+}
+
+.about-middle-content .about-boxes button:hover {
+  background-color: black;
+  color: white;
+}
+
+.about-bottom-content {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.about-middle-content .about-boxes .pix {
+  width: 360px;
+  /* margin: 0 auto; */
+}
+
+/* header, .container-about-page, .about-middle-content, .about-boxes, .pix {
+  border: 1px solid red;
+} */
