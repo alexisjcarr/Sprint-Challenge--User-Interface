@@ -26,32 +26,36 @@
         <img class="header-img" src="img/jumbo-about.png" alt="header image">
     </header>
 
-    <div class="container-contact-page">
+    <div class="container">
         <section class=form>
             <form action="#">
                 <fieldset>
                     <legend>
-                        <h1>Contact</h1>
+                        <h1>Contact Us</h1>
                     </legend>
-                    <p>First name</p>
-                    <input type="text" name="firstname" placeholder="Lambda">
+                    <input type="text" name="firstname" placeholder="First name">
                     <br><br>
-                    <p>Last name</p>
-                    <input type="text" name="lastname" placeholder="Student">
+                    <input type="text" name="lastname" placeholder="Last name">
                     <br><br>
-                    <p>Email address</p>
-                    <input type="text" name="email" placeholder="lambdastudent@lambda.com">
+                    <input type="text" name="email" placeholder="Email address">
                     <br><br>
-                    <p>Message</p>
-                    <textarea id="message" name="message" placeholder="Write something . . ."></textarea>
+                    <select name="question" id="question">
+                        <option value="plz">What's this about?</option>
+                        <option value="fe">Front End Development</option>
+                        <option value="be">Backend Development</option>
+                        <option value="ux">UX/UI</option>
+                        <option value="ds">Data Science</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <br><br>
+                    <textarea id="message" name="message" placeholder="Go ahead, we're listening . . ."></textarea>
                     <br><br>
                     <input type="submit" value="Submit">
                     <br><br>
                 </fieldset>
             </form>
         </section>
-
-        <footer class="contact-footer">
+        <footer>
             <nav>
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
