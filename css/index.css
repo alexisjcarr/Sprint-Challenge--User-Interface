@@ -183,6 +183,11 @@ header nav a {
   text-decoration: none;
 }
 
+header nav a:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
 header .header-img {
   display: block;
   margin-left: auto;
@@ -307,6 +312,11 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+
+footer nav a:hover {
+  text-decoration: underline;
+  font-weight: bolder;
 }
 
 /* About Page specific styles */
