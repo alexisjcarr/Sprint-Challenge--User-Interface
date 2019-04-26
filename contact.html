@@ -26,39 +26,42 @@
         <img class="header-img" src="img/jumbo-about.png" alt="header image">
     </header>
 
-    <section class=form>
-        <form action="#">
-            <fieldset>
-                <legend>
-                    <h1>Contact</h1>
-                </legend>
-                <p>First name</p>
-                <input type="text" name="firstname" value="Lambda">
-                <br><br>
-                <p>Last name</p>
-                <input type="text" name="lastname" value="Student">
-                <br><br>
-                <p>Email address</p>
-                <input type="text" name="email" value="lambdastudent@lambda.com">
-                <br><br>
-                <p>Message</p>
-                <input class="message" type="text" name="message">
-                <br><br>
-                <input type="submit" value="Submit">
-            </fieldset>
-        </form>
-    </section>
+    <div class="container">
+        <section class=form>
+            <form action="#">
+                <fieldset>
+                    <legend>
+                        <h1>Contact</h1>
+                    </legend>
+                    <p>First name</p>
+                    <input type="text" name="firstname" placeholder="Lambda">
+                    <br><br>
+                    <p>Last name</p>
+                    <input type="text" name="lastname" placeholder="Student">
+                    <br><br>
+                    <p>Email address</p>
+                    <input type="text" name="email" placeholder="lambdastudent@lambda.com">
+                    <br><br>
+                    <p>Message</p>
+                    <textarea id="message" name="message" placeholder="Write something . . ."></textarea>
+                    <br><br>
+                    <input type="submit" value="Submit">
+                    <br><br>
+                </fieldset>
+            </form>
+        </section>
 
-    <footer>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="#">Products</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
-        </nav>
-    </footer>
-    </div><!-- container -->
+        <footer class="contact-footer">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="#">Products</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </nav>
+        </footer>
+    </div>
+
 </body>
 
 </html>

@@ -354,6 +354,7 @@ footer nav a:hover {
 .about-middle-content .about-boxes button:hover {
   background-color: black;
   color: white;
+  cursor: pointer;
 }
 
 .about-bottom-content {
@@ -383,14 +384,15 @@ input[type=text] {
   outline: none;
 }
 
-form .message {
+form #message {
   width: 300px;
   height: 150px;
-  padding: 12px 20px;
+  border-radius: 10px;
   box-sizing: border-box;
   border: 2px solid #ccc;
   background-color: #f8f8f8;
   outline: none;
+  resize: none;
 }
 
 input[type=submit] {
@@ -398,4 +400,14 @@ input[type=submit] {
   background-color: #EEFFE6; 
   border: 2px solid #ccc;
   padding: 5px 20px;
+}
+
+input[type=submit]:hover {
+  background-color: #D6E6CF;
+  cursor: pointer;
+}
+
+.contact-footer {
+  position: absolute;
+  bottom: 0;
 }
