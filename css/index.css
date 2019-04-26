@@ -322,13 +322,14 @@ footer nav a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: auto;
+  margin: 10px;
 }
 
 .about-middle-content .about-boxes {
   width: 380px;
-  /* margin: 10px; */
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* padding-right: 15px; */
   text-align: justify;
   border-bottom: 1px dotted black;
 }
@@ -352,8 +353,8 @@ footer nav a {
 }
 
 .about-middle-content .about-boxes .pix {
-  width: 360px;
-  /* margin: 0 auto; */
+  width: 380px;
+  margin-bottom: 10px;
 }
 
 /* header, .container-about-page, .about-middle-content, .about-boxes, .pix {
